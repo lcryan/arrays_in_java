@@ -11,15 +11,15 @@ public class Main {
         System.out.println(countdown[2]);
         System.out.println("boom!");
 
-        int length = countdown.length;
-        String[] result = new String[length];
-
-        for (int i = 0; i < length; i++) {
-            result[i] = countdown[i] + names[i];
-            System.out.println(result[i]);
-
+        for (String str : names) {
+            System.out.println(str);
         }
+        int arraysLength = countdown.length;
+        String[] arraysCombined = new String[arraysLength];
 
+        for (int i = 0; i < arraysLength; i++) {
+            arraysCombined[i] = countdown[i] + names[i];
+            System.out.println(arraysCombined[i]);
+        }
     }
-
 }

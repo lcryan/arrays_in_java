@@ -11,6 +11,9 @@ public class Main {
         System.out.println(countdown[2]);
         System.out.println("boom!");
 
+        for (String str : names) {
+            System.out.println(str);
+        }
         int length = countdown.length;
         String[] result = new String[length];
 

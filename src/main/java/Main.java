@@ -14,15 +14,12 @@ public class Main {
         for (String str : names) {
             System.out.println(str);
         }
-        int length = countdown.length;
-        String[] result = new String[length];
+        int arraysLength = countdown.length;
+        String[] arraysCombined = new String[arraysLength];
 
-        for (int i = 0; i < length; i++) {
-            result[i] = countdown[i] + names[i];
-            System.out.println(result[i]);
-
+        for (int i = 0; i < arraysLength; i++) {
+            arraysCombined[i] = countdown[i] + names[i];
+            System.out.println(arraysCombined[i]);
         }
-
     }
-
 }

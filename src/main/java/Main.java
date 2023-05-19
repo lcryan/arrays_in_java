@@ -10,11 +10,10 @@ public class Main {
         System.out.println(countdown[2]);
         System.out.println("boom!");
 
+        for (String str : names) {
+            System.out.println(str);
+        }
 
-        // 2. implementeer een for loop die alle namen in de array "names" print. Houd er rekening mee dat de array een andere length kan hebben dan 3.
-        //for(;;) {
-
-        //}
 
         // 3. implementeer een for loop die de twee arrays combineerd. De output moet zijn:
         // oneSjaak
